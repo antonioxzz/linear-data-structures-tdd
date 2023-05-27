@@ -16,3 +16,4 @@ from stack1.stack1 import are_parentheses_balanced
 def test_are_parentheses_balanced(expression, expected):
     result = are_parentheses_balanced(expression)
     assert result == expected
+    
