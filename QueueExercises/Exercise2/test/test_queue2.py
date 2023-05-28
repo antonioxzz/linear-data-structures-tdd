@@ -12,3 +12,4 @@ from queue2.queue2 import merge_sort_queue
 def test_merge_sort_queue(numbers, expected):
     result = merge_sort_queue(numbers)
     assert result == expected
+    
